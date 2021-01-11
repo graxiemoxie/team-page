@@ -1,0 +1,276 @@
+body {
+    background: #222222;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.wrapper h1{
+    width: 50%;
+}
+
+.wrapper p{
+    width: 50%;
+}
+
+/*section1*/
+
+.photo-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    position: relative;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.photo-section img{
+    width: 230px;
+    padding: 30px;
+}
+
+.photo-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.photo-container p{
+    position: relative;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.photo-container .job-description {
+    position: absolute;
+    top: 80px;
+    left:230px;
+    transform: rotate(90deg);
+    height: 20px;
+    width: 100px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 15px;
+    font-family:  Serif;
+    font-style: normal;
+    
+
+}
+
+
+.middle-image{
+    margin: 80px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    .wrapper .team-description{
+        margin-left: 60px;
+    }
+
+    .photo-section img{
+        width: 200px;
+        padding: 20px;
+    }
+
+    .photo-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        position: relative;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .photo-container {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo-container .job-description {
+        position: absolute;
+        top: 70px;
+        left:185px;
+        transform: rotate(90deg);
+        height: 20px;
+        width: 100px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 15px;
+        font-family:  Serif;
+        font-style: normal;
+        
+    
+    }
+
+    .middle-image{
+        margin-top: 0px;
+    }
+
+    .side-image {
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 50px;
+        padding: 10px;
+    }
+
+    .wrapper .team-description{
+        margin-left: 7px;
+        width: 100%;
+    }
+
+    .photo-section img{
+        width: 150px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .photo-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        position: relative;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .photo-container {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo-container p{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo-container .job-description {
+        position: absolute;
+        top: 65px;
+        left:140px;
+        transform: rotate(90deg);
+        height: 20px;
+        width: 100px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 15px;
+        font-family:  Serif;
+        font-style: normal;
+        
+    
+    }
+
+    .middle-image{
+        margin-top: 0px;
+    }
+
+    .side-image {
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 30px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .wrapper .team-description{
+        margin-left: 7px;
+        width: 100%;
+    }
+
+    .photo-section img{
+        width: 100px;
+        padding: 15px 15px 0 15px;
+    }
+
+    .photo-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        position: relative;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .photo-container {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .photo-container p{
+        font-size: 10px;
+        margin-left: 15px;
+        padding: 0;
+    }
+
+    .photo-container .job-description {
+        position: absolute;
+        top: 60px;
+        left:72px;
+        transform: rotate(90deg);
+        height: 20px;
+        width: 100px;
+        color: #ffffff;
+        font-size: 11px;
+        font-family:  Serif;
+        font-style: normal;
+        
+    
+    }
+
+    .middle-image{
+        margin-top: 0px;
+    }
+
+    .side-image {
+        margin-top: 40px;
+    }
+    
+}
+
+
