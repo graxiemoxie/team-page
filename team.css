@@ -87,9 +87,7 @@ body {
 }
 
 
-.middle-image{
-   /* margin: 80px;*/
-}
+
 
 
 .footer{
@@ -233,7 +231,7 @@ body {
 
 @media screen and (max-width: 320px) {
     .container {
-        padding: 10px 30px 0;
+        padding: 10px 20px 0;
     }
     
     .wrapper {
@@ -268,7 +266,7 @@ body {
     }
     .photo-section img{
         width: 110px;
-        padding: 0 25px 0 0;
+        padding: 0 20px 0 0;
 
     }
 
